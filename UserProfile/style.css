@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: #e0e5ec;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: #000046;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45deg, #eab668, #ab6f45);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: -8px -8px 12px #ffffff, 8px 8px 12px #a3b1c6;
+  /* box-shadow: inset rgba(0,0,0,0.19) 0px 10px 20px, rgba(0,0,0,0.23) 0px 6px 6px; */
+}
+
+.user {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  height: 299px;
+  width: 320px;
+  background: #fff;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.proflie {
+  float: left;
+  color: #786450;
+  width: 200px;
+  height: 320px;
+  text-align: center;
+}
+
+.proflie .image{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 38px auto 0 auto;
+}
+.proflie .image img{
+    display: block;
+  border-radius: 50%;
+  background: #F5E8DF;
+}
+
+.proflie .image .circle-1, .proflie .image .circle-2{
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    border-width: 1px;
+  border-style: solid;
+  top: -3px;
+  left: -3px;
+  border-color: #786450 #786450 #786450 transparent;
+  transition: all 1.5s ease-in-out;
+}
+
+.proflie .image .circle-2{
+    width: 82px;
+    height: 82px;
+    top: -6px;
+    left: -6px;
+    border-color: #786450 transparent #786450 #786450;
+}
+
+.proflie .image:hover{
+    cursor: pointer;
+}
+
+.proflie .image:hover .circle-1, .proflie .image:hover .circle-2{
+    transform: rotate(360deg);
+}
+
+.profile .image:hover .circle-2 {
+    transform: rotate(-360deg);
+  }
+
+  .proflie .name{
+      font-size: 15px;
+      font-weight: 800;
+      margin-top: 20px;
+  }
+
+  .proflie .job{
+      font-size: 10px;
+      line-height: 15px;
+  }
+
+  .proflie .actions{
+      margin-top: 33px ;
+  }
+
+  .proflie .actions .btn{
+      display: block;
+      width: 120px;
+      height: 30px;
+      margin: 0 auto 10px auto;
+      border: 1px solid #786450;
+      border-radius: 15px;
+      color: #786450;
+      font-size: 12px;
+      font-weight: 600;
+      box-sizing: border-box;
+      transition: all 0.4s ease-in-out;
+  }
+
+  .proflie .actions .btn:hover{
+      background-color: #786450;
+      color: #fff;
+  }
+  
+  .stats{
+      float: left;
+  }
+
+  .stats .item{
+      box-sizing: border-box;
+      width: 120px;
+      height: 99px;
+      padding-top: 28px;
+      background-color: #F5E8DF;
+      color: #786450;
+      transition: all .4s ease-in-out;
+  }
+
+  .stats .item:nth-child(2){
+      margin: 1px 0;
+  }
+
+  .stats .item:hover{
+      background: #f5d8be;
+  }
+
+  .stats span{
+    display: block;
+  }
+
+.val{
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+.param{
+    font-size: 12px;
+}
