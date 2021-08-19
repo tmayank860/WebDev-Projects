@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+.container {
+ max-width: 350px;
+ margin: 30px auto 0;
+ padding: 20px;
+ box-sizing: border-box;
+ background:#ffffff;
+ box-shadow: 2px 2px 22px #ababab;
+ border-radius: 10px;
+ text-align: center;
+ font-family: 'Lato', sans-serif;
+}
+
+form{
+ text-align: left;
+}
+
+input:focus-visible,
+select:focus-visible{
+ border: 1px solid #ccc3c3;
+ outline: none !important;
+}
+
+.fullwidth input,
+.fullwidth select {
+padding: 6px;
+border: 1px solid #ccc3c3;
+width: 100%;
+box-sizing: border-box;
+border-radius: 5px;
+}
+h1 {
+margin: 0px;
+background: #03256C;
+color: #fff;
+margin: -20px -20px 1px -20px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+padding: 10px;
+}
+
+button {
+background:  #03256C;
+color: white;
+border: none;
+font-size: 18px;
+padding: 11px 20px;
+border-radius: 6px;
+cursor: pointer;
+transition: 0.3s linear all;
+margin-top: 20px;
+}
+
+button:hover {
+background: #FFA900;
+transition: 0.3s linear all;
+color: #000000;
+}
+
+#amount{
+display: none;
+}
+.total-amount span {
+font-size: 18px;
+margin-top: 40px;
+color: #000;
+}
+
+.total-amount h2 {
+margin-bottom: 0;
+}
+.form-group {
+padding: 14px 0;
+}
+label {
+display: block;
+}
+.btn-wrap{
+text-align: center;
+}
+
+.fullwidth label{
+padding-bottom: 10px;
+}
+
+.final-output{
+border: 1px solid red;
+margin-top: 15px;
+border-radius: 10px;
+padding: 13px;
+}
+
+.final-output p{
+color: red;
+display: inline-block;
+margin: 10px;
+}

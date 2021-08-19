@@ -23,7 +23,6 @@ body {
   align-items: center;
   border-radius: 20px;
   box-shadow: inset -8px -8px 12px #ffffff, inset 8px 8px 12px #a3b1c6;
-  /* box-shadow: inset rgba(0,0,0,0.19) 0px 10px 20px, rgba(0,0,0,0.23) 0px 6px 6px; */
 }
 p {
         font-size: 26px;

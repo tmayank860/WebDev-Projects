@@ -1,0 +1,14 @@
+body{
+    display: flex;
+}
+
+.box{
+   width: 200px;
+   height: 200px;
+   background-color: #000;
+   color: #ee9522;
+   margin: 15px;
+   display: grid;
+   place-items: center;
+   font-size: 40px;
+}

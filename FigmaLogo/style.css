@@ -1,0 +1,58 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+  }
+  .content{
+    width:400px;
+    height:400px;
+    background-color:#333;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .logo{
+    width:180px;
+    height:270px;
+    display:flex;
+    flex-wrap:wrap;
+    
+  }
+  .color{
+    width:90px;
+    height:90px;
+    background:#f10b0b;
+  }
+  
+  .color-1{
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    background-color:#f10b0b;
+  }
+  
+  .color-2{
+    border-top-right-radius:50px;
+    border-bottom-right-radius:50px;
+    background:#ee4e2a;
+  }
+  
+  .color-3{
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    background-color:#a061fa;
+  }
+  
+  .color-4{
+    border-radius:50px;
+    background-color:#2ebdfa;
+  }
+  .color-5{
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+    background-color:#00ce84;
+  }
+  
