@@ -1,0 +1,101 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  padding-top: 135px;
+  background: #fff;
+  color: white;
+  max-width: 400px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  background: #242b2e;
+}
+nav {
+  float: left;
+  position: relative;
+  top: 0;
+  left: -40px;
+  background: transparent;
+}
+
+nav ul {
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+ul li .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #fff;
+}
+
+nav ul li {
+  position: relative;
+  width: 100px;
+  padding: 10px;
+  cursor: pointer;
+  background: #1c435b;
+  text-transform: uppercase;
+  transition: all 0.4s ease-out;
+}
+
+nav ul li > div {
+  display: inline-block;
+  padding: 25px 0;
+  background: transparent;
+}
+
+nav ul li:after {
+  position: absolute;
+  background: #fff;
+  color: #1c435b;
+  top: 0;
+  left: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 15px;
+  font-weight: 500;
+  height: 100%;
+  opacity: 0.5;
+  transform: perspective(500px) rotateY(90deg);
+  transform-origin: 0 100%;
+  transition: all 0.4s ease-out;
+}
+
+nav ul li:nth-child(1):after {
+  content: "Home";
+}
+nav ul li:nth-child(2):after {
+  content: "About";
+}
+nav ul li:nth-child(3):after {
+  content: "Contact";
+}
+nav ul li:nth-child(4):after {
+  content: "Connect";
+}
+nav ul li:nth-child(5):after {
+  content: "Setting";
+}
+
+nav ul li:hover {
+  transform: translateX(-100px);
+}
+
+nav ul li:hover:after {
+  opacity: 1;
+  transform: perspective(500px) rotateY(0deg) scale(1);
+}
